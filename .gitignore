@@ -8,3 +8,5 @@
 /DBEngine/obj
 /DBEngine/bin
 /packages
+/DBEngine/App.config
+/BikeServer/Web.config
