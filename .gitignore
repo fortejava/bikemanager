@@ -4,3 +4,5 @@
 
 /.vs
 /BikeServer/.vs
+/DBEngine/obj/Debug/edmxResourcesToEmbed
+/packages
