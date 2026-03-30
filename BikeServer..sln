@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11620.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BikeServer", "BikeServer\", "{1D9812E1-86A2-0B64-1E17-68181E35050D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63145"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\BikeRepo\BikeServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63145\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63145"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\BikeRepo\BikeServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63145\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63145"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63145"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\BikeRepo\BikeServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63145\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63145"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\BikeRepo\BikeServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63145\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63145"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBEngine", "DBEngine\DBEngine.csproj", "{B07D0C88-D7C1-4E51-8733-2817E54B6A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9812E1-86A2-0B64-1E17-68181E35050D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9812E1-86A2-0B64-1E17-68181E35050D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9812E1-86A2-0B64-1E17-68181E35050D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07D0C88-D7C1-4E51-8733-2817E54B6A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07D0C88-D7C1-4E51-8733-2817E54B6A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07D0C88-D7C1-4E51-8733-2817E54B6A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07D0C88-D7C1-4E51-8733-2817E54B6A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A62DB181-B898-4D4D-82AC-1680A44B1790}
+	EndGlobalSection
+EndGlobal

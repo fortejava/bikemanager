@@ -1,0 +1,12 @@
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\DBEngine.dll.config
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\DBEngine.dll
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\DBEngine.pdb
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\EntityFramework.dll
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\EntityFramework.xml
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.csproj.AssemblyReference.cache
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.csproj.Up2Date
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.dll
+C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.pdb
