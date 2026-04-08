@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        const sendData = () => {
+
+            let realForm = new FormData(); //Creo la form che verrà effettivamente inviata al server
+            realForm.append("name", document.querySelector("#workerName").value);
+
+            let xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function ()
+            {
+                if (this.readyState == 4)
+                {
+                    switch (this.status) {
+                        case 200:
+                            //Tutto ok: mostrare la risposta in pagina
+                            //Convertiamo il Json restituito dal server in variabili JS
+                            let res = JSON.parse(this.responseText);
+                            updatePage(res);
+                            break;
+                    }
+                }
+            }
+
+
+            //Impostiamo la url a cui spedire i dati
+            xhr.open("POST","/GetWorkersByName.ashx",true);
+            xhr.send(realForm);
+
+            return false;
+        }
+
+        const updatePage = (elements) => {
+            //TODO: Stampare i risultati in pagina
+
+            //1) Riassegnare l'html di #target
+
+            let output = '';
+
+            //Ciclo su tutto elements, in cui andiamo ad aggiungere parti ad output
+            for (el of elements)
+            {
+                output += `<p>${el.first_name} ${el.last_name} ${el.phone}</p>`
+            }
+
+            //Modifichiamo il contenuto di #target
+            document.querySelector("#target").innerHTML = output;
+        }
+    </script>
+</head>
+<body>
+    <form action="/" method="post" onsubmit="return sendData()">
+        <input type="text" name="workerName" id="workerName" size="20" maxlength="20" placeholder="Nome impiegato" />
+        <input type="submit" value="Cerca impiegato" id="search-start" />
+    </form>
+
+    <div id="target"></div>
+</body>
+</html>

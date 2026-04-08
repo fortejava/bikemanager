@@ -10,3 +10,5 @@ C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.csproj.CoreComp
 C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.csproj.Up2Date
 C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.dll
 C:\Users\Alessandro\Desktop\Progetti\DBEngine\obj\Debug\DBEngine.pdb
+C:\Users\Sviluppatore\Desktop\BikeManager\DBEngine\obj\Debug\DBEngine.dll
+C:\Users\Sviluppatore\Desktop\BikeManager\DBEngine\obj\Debug\DBEngine.pdb
